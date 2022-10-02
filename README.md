@@ -21,7 +21,7 @@ In this assignment we will start to use React components. The goal of this assig
 1. Layout the login form, pager, and radio buttons by composing generic components (I see 2-3 generic components you could make) that will be located in `src/components`.
 2. Figure out what props you want to pass down to each component. Example: let's say we created a button component some, but not limited to, of the props that I might pass down could be a enable/disable flag, a way to change the color, and a button size. 
 3. Feel free to add custom styling any new generic components you want.
-4. [Deploy your app](https://github.com/prof-tejera/react-deployment-code#deployment) and insert the url here: REPLACE_WITH_URL_TO_APP
+4. [Deploy your app](https://github.com/prof-tejera/react-deployment-code#deployment) and insert the url here: https://prof-tejera.github.io/homework-3-isyed01/
 
 
 ## Bonus
