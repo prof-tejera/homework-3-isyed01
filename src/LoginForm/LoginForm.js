@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Panel from "components/Panel/Panel";
 import Input from "components/Input/Input";
 import Checkbox from "components/Input/Checkbox";

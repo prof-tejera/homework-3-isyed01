@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Panel from "components/Panel/Panel";
 import Button from "components/Button/Button";
 import "./Pager.css";
@@ -13,17 +13,15 @@ const Pager = ({  startPage=1, total=12, tabsBuffer=2 }) => {
   const [rangeStart,setRangeStart] = useState(1)
 
   // Chnage the active state of the items within the state based on the id just selected
-  const handleSelect = (e) => setCurrentPage( parseInt(e.target.value) )
-
-  // Side-effects of changing currentPage
-  useEffect(()=>{
-    console.log(`current=${current}`)
+  const handleSelect = (e) => {
+    const page = parseInt(e.target.value);
+    setCurrentPage( page ) 
     let rangeStart;
-    rangeStart = current > tabsBuffer+1 ? current-tabsBuffer : 1;
+    rangeStart = page > tabsBuffer+1 ? page-tabsBuffer : 1;
     rangeStart = rangeStart > total-tabsBuffer-2 ?  total-(tabsBuffer*2) : rangeStart;
     setRangeStart(rangeStart);
-  },[current])
 
+  }
 
 
   const PreviousPageButton = () => <Button
