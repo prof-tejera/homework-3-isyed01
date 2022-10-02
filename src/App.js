@@ -17,21 +17,21 @@ const App = () => {
       </div>
 
       <div className="App-component">
-        <header className="App-header">Login form component (TODO)</header>
+        <header className="App-header">Login form component</header>
         <div className="App-content">
           <LoginForm />
         </div>
       </div>
 
       <div className="App-component">
-        <header className="App-header">Pager component (TODO)</header>
+        <header className="App-header">Pager component</header>
         <div className="App-content">
-          <Pager />
+          <Pager startPage={2} total={100} tabsBuffer={7} />
         </div>
       </div>
 
       <div className="App-component">
-        <header className="App-header">Radio Buttons component (TODO)</header>
+        <header className="App-header">Radio Buttons component</header>
         <div className="App-content">
           <RadioButtons />
         </div>

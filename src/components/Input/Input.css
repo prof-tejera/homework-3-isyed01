@@ -1,0 +1,44 @@
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+input[type=text], input[type=password] {
+  border: solid 1px #cccccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.5rem;
+}
+
+input[type=submit] {
+  background-color: rgba(71, 145, 241, 0.9);
+  border: rgba(71, 145, 241, 1) ;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding:0.5rem 1rem;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(35, 72, 120, 0.9);
+}
+
+
+input[type="checkbox"],
+input[type=submit] {
+  margin-left:7rem;
+}
+
+
+.input-required-symbol {
+  color:#CC0000;
+}
+
+.input-label {
+  display:inline-block;
+  width:6rem;
+}
+
+.input-label-checkbox {
+  display:inline-block;
+  width:auto;
+  padding-left:0.5rem;
+}

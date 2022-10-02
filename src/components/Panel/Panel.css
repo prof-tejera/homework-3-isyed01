@@ -1,0 +1,7 @@
+.panel {
+  background-color:#ffffff;
+  border: solid 1px #dedede;
+  border-radius: 0.5rem;
+  padding: 1.5rem 3rem;
+  filter:drop-shadow( .1rem .1rem 0.25rem #ccc);
+}
