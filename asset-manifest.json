@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/homework-3-isyed01/static/css/main.6c8a51d6.css",
+    "main.js": "/homework-3-isyed01/static/js/main.b504aa1c.js",
+    "index.html": "/homework-3-isyed01/index.html",
+    "main.6c8a51d6.css.map": "/homework-3-isyed01/static/css/main.6c8a51d6.css.map",
+    "main.b504aa1c.js.map": "/homework-3-isyed01/static/js/main.b504aa1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c8a51d6.css",
+    "static/js/main.b504aa1c.js"
+  ]
+}
