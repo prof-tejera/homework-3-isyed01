@@ -1,7 +1,14 @@
+* {
+  font-size:1.1rem;
+}
+
+body {
+  background-color:#f0f0f0;
+}
+
 .App-component {
-  border: 1px solid;
-  margin: 10px;
-  margin-bottom: 50px;
+ margin:2rem 1rem;
+
 }
 
 .App-header {
